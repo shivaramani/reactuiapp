@@ -1,0 +1,148 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: lightgoldenrodyellow;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+
+
+a:link, a:visited {
+    
+    color: rgb(71, 66, 66);
+    padding: 14px 25px; 
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a:hover, a:active {
+    background-color: #4f352f;
+}
+
+
+@media only screen and (max-width: 500px) {
+  /* body {
+      background-color:dimgray;
+  } */
+  .bm-burger-button {
+      display: block;
+  }
+  .bm-menu{
+      display: block;
+  }
+  .bm-cross-button{
+      display: block;
+  }
+  .header{
+      display: none;
+  }
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+
+  .bm-burger-button {
+      display: none;
+  }
+  .bm-menu{
+      display: none;
+  }
+  .bm-cross-button{
+      display: none;
+  }
+  .header{
+      display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .bm-burger-button {
+      display: none;
+  }
+  .bm-menu{
+      display: none;
+  }
+  .bm-cross-button{
+      display: none;
+  }
+  .header{
+      display: block;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+
+  .bm-burger-button {
+      display: none;
+  }
+  .bm-menu{
+      display: none;
+  }
+  .bm-cross-button{
+      display: none;
+  }
+  .header{
+      display: block;
+  }
+}
+
+.linkbutton {
+  background-color: #779978; 
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+} 
